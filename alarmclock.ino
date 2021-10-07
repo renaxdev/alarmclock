@@ -1,23 +1,28 @@
 /*
 Alarm Clock with Temperature and Humidity Measuring Feature
+
+DONT USE THIS YET. DEVELOPMENT PHASE
+
 */
-#include <Wire.h> // IIC-Bibliothek            
+//Librarys
+#include <Wire.h> 
 #include <LiquidCrystal_I2C.h>
 #include "DHT.h"
 #define DHTTYPE DHT11
 #include <virtuabotixRTC.h> 
  
+//RTC Wiring
 //CLK -> 9 , DAT -> 10, Reset -> 11
- 
-virtuabotixRTC zeit(9, 10, 11); 
 
-LiquidCrystal_I2C lcd(0x3F,16,2);
-
+//Pin Definitions
 int button1 = 3;
 int button2 = 7;
 int dhtpin = 8;
 
+//Module Init
 DHT dht(dhtpin, DHTTYPE);
+virtuabotixRTC zeit(9, 10, 11); 
+LiquidCrystal_I2C lcd(0x3F,16,2);
 
 void setup(void) {
   //myRTC.setDS1302Time(10, 48, 17, 7, 06, 10, 2021); < Setze Zeit beim Setup. Entfernen nach Einstellung
