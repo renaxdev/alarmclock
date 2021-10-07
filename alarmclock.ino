@@ -1,9 +1,10 @@
+/*
+Alarm Clock with Temperature and Humidity Measuring Feature
+*/
 #include <Wire.h> // IIC-Bibliothek            
 #include <LiquidCrystal_I2C.h>
 #include "DHT.h"
 #define DHTTYPE DHT11
-
-
 #include <virtuabotixRTC.h> 
  
 //CLK -> 9 , DAT -> 10, Reset -> 11
