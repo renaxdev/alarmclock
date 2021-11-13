@@ -37,7 +37,7 @@ bool alarm = false;
 bool pressed = true;
 
 void setup(void) {
-  zeit.setDS1302Time(15, 06, 10, 7, 13, 11, 2021); // Setze Zeit beim Setup. Entfernen nach Einstellung [Sekunden, Minuten, Stunden, Tage, Datumtag , Monat, Jahr]
+  //zeit.setDS1302Time(15, 06, 10, 7, 13, 11, 2021); // Setze Zeit beim Setup. Entfernen nach Einstellung [Sekunden, Minuten, Stunden, Tage, Datumtag , Monat, Jahr]
   lcd.init();   
   lcd.backlight();
   pinMode(button1, INPUT);
