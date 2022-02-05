@@ -1,7 +1,7 @@
 # Alarmclock
 
 At school, we have to do a small project using Arduinos.
-We tought about making a small Alarm Clock with a Temperature/Humidity-Showing feature.
+We thought about making a small Alarm Clock with a Temperature/Humidity-Showing feature.
 
 ## Circuit
 ![Circuit](https://cdn.discordapp.com/attachments/871661927485542403/895369413518323762/wpuwecker_Steckplatine.png)
