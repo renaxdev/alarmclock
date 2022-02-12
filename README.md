@@ -12,7 +12,8 @@ We thought about making a small Alarm Clock with a Temperature/Humidity-Showing 
 - RTC Module (DS1302 IC)
 - 16x2 LCD Display with i2c Module
 
+## 3D-Print
+To print the parts for the case please increase the size of the model in your slicer by 1000% to make it the right size
 
 ## Development Phase
 Changes can be made. Dont upload yet.
-I will notify you, if the program is ready to use
